@@ -1,0 +1,87 @@
+body{
+    overflow-x: hidden
+}
+
+.abajo h3{
+    text-align: end;
+    direction: rtl;
+    margin-left: 360px;
+}
+.tituloab h1{
+    font-size: 50px;
+}
+.image1 img{
+    width: 230px;
+    height: 150px;
+    text-align: center;
+    margin-top: 150px;
+}
+.image2 img{
+    width: 280px;
+    height: 300px;
+    text-align: start;
+    padding-left: 60px;
+}
+.image3 img{
+    width: 270px;
+    height: 130px;
+    margin-left: -130px;
+}
+.image4 img{
+    max-width: 250px;
+    height: 300px;
+    padding-left: 20px;
+}
+.exper h1{
+    margin-left: -120px;
+}
+
+
+.aboutmore h3{
+    text-align: center;
+}
+.image11 img{
+    width: 50%;
+    height: auto;
+    margin-top: 90px
+}
+.image12 img{
+    max-width: 75%;
+    height: 180px;
+    margin-left: 170px;
+}
+.learnmore2 h3{
+    text-align:end;
+    margin-left: 420px;
+    direction: rtl;
+}
+
+.learnmore3 h1{
+    font-size: 95px;
+    width: 1000rem;
+    margin-left: -70px;
+    color: rgb(22, 22, 22);
+}
+.image13 img{
+    max-width: 20%;
+    height: auto;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.image14 img{
+    margin-left: -60px;
+    width: 350px;
+    height: 200px;
+}
+.image15 img{
+    width: 425px;
+    height: 370px;
+    margin-left: 25px;
+}
+
+body
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+

@@ -1,0 +1,67 @@
+.card {
+    border: none;
+  }
+.container {
+    padding-top: 50px;
+}
+h1{
+    font-family: Pompei Pro Regular;
+    text-align: center;
+    font-size: 300px;
+}
+p{
+    font-size: 12px;
+    width: 25rem;
+    padding-top: 7px;
+}
+.bola img {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    max-width: 20%;
+    height: auto;
+  }
+.ulima .card-img-top {
+    padding-top: 150px;
+  }
+
+
+@media (max-width: 768px){
+    .card{
+       display: block;
+    }
+    .row{
+        display: block;
+    }
+    p{
+        font-size: 12px;
+        width: 13rem;
+        padding-top: 7px;
+    }
+    h1 {
+        text-align: start;
+    font-size: 60px;
+      }
+    col-5{
+        display: inline-block;
+    }  
+    .bola img {
+        position: absolute;
+        top: 1045px;
+        left: 25.5%;
+        max-width: 10%;
+        height: auto;
+      }
+    .ulima .card-img-top {
+        padding-top: 20px;
+      }
+     
+}
+body
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="paglogin.css">
+    
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>    
+    <div class="flex-container">  
+        <div class="cuadro1">
+                <div class="row">
+                    <div class="col-4">
+                        <h1><strong>BABOR</strong></h1>
+                    </div>
+                    <div class="col-2">
+                        <p style="margin: 0%;"><a href="#" style="color: black; text-decoration: none;">Lines</a></p>
+                        <p style="margin: 0%;"><a href="#" style="color: black; text-decoration: none;">Face</a></p>
+                        <p style="margin: 0%;"><a href="#" style="color: black; text-decoration: none;">Makeup</a></p>
+                        <p style="margin: 0%;"><a href="#" style="color: black; text-decoration: none;">Body</a></p>
+                    </div>
+                    <div class="col-2">
+                        <p style="margin: 0%;"><a href="#" style="color: black; text-decoration: none; font-size: 15px;">New arrivals</a></p>
+                        <p style="margin: 0%;"><a href="#" style="color: black; text-decoration: none; font-size: 15px;">Best sellers</a></p>
+                        <p style="margin: 0%;"><a href="#" style="color: black; text-decoration: none;">Gifts</a></p>
+                    </div>
+                    <div class="col-2">
+                        <p style="margin: 0%;"><a href="./About.html" style="color: black; text-decoration: none; font-size: 14px;">About Babor</a></p>
+                        <p style="margin: 0%;"><a href="./sustainabil.html" style="color: black; text-decoration: none;">Sustainbility</a></p>
+                        <p style="margin: 0%;"><a href="./babor.html" style="color: black; text-decoration: none;">News</a></p>
+                    </div>
+                </div>
+                <br>
+            <div style="padding: 50px" >
+                <h1 style="font-size: 60px;">Login or create</h1><h1 style="font-size: 60px;">an acount</h1>
+                <input type="tel" id="phone" name="phone" placeholder="Phone" required style="border: none; outline: none; border-bottom: 1px solid #ccc;">
+                <br><br>
+                <button id="Numero"  type="submit" style="border-radius: 5px; background-color: #1e1e1e; color: #fff; padding: 5px 60px;"><a href="./anti.html">Confirm number</a></button>
+            </div>
+        </div>   
+    
+        <div class="cuadro2" >     
+            <img src="https://babor-database.imgix.net/files/4/25572/babor-18725-set-products-0069-rd-min.jpg?fit=crop&q=80&fm=webp&w=960&h=710" width="680">
+            <div>
+                <input type="text" id="texto" name="texto" placeholder="Search" style="border: none; outline: none; border-bottom: 1px solid #ccc; background-color: rgba(0, 0, 0, 0);" onkeydown="search(event)">
+                &nbsp&nbsp&nbsp&nbsp&nbsp             
+                <button type="submit" style="border-radius: 15px; background-color: #fff; color: #1e1e1e; padding: 1px 10px;">Login</button>
+                <button type="submit" style="border-radius: 15px; background-color: #fff; color: #1e1e1e; padding: 1px 10px;">Cart (0)</button>
+              </div>
+        </div>
+    </div>
+
+    <script>
+   function search(event) {
+  if (event.keyCode === 13) {
+    var texto = document.getElementById("texto").value;
+    window.location.href = "paginanotf.html";
+  }
+}
+    
+    var input = document.getElementById("phone");
+var button = document.getElementById("Numero");
+
+button.addEventListener("click", function() {
+  if (input.value === "") {
+    alert("El campo está vacío");
+  } else {
+    alert("Numero confirmado");
+  }
+});
+    </script>
+    <!--AOS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

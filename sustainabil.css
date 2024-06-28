@@ -1,0 +1,40 @@
+body{
+    overflow-x: hidden;
+}
+.imagever img{
+    width: 480px;
+    height: 380px;
+    margin-top: -3920px;
+    margin-left: 710px;
+}
+.imagese img{
+    width: 460px;
+    height: 380px;
+    margin-top: -1540px;
+    margin-left: 580px;
+}
+.imagebl img{
+    width: 270px;
+    height: 150px;   
+}
+.imagebt img{
+    width: 280px;
+    height: 300px;   
+}
+.botones {
+    position: absolute;
+    top: 0%;
+    left: 65%;
+}
+.botones ::placeholder{
+    color: white;
+}
+
+.izqui{
+    margin-left: -40px;
+}
+
+body
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

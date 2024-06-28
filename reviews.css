@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Reviews Section */
+.reviews {
+    margin-bottom: 50px;
+}
+
+.reviews h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.review-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review-summary span {
+    font-size: 18px;
+    color: #555;
+}
+
+.write-review-btn {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+}
+
+.review-list {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.review {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+.show-more-btn {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* You May Like Section */
+.you-may-like {
+    margin-bottom: 50px;
+}
+
+.you-may-like h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.product {
+    min-width: 200px;
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.product-info {
+    text-align: left;
+}
+
+.new-label {
+    background-color: #f00;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.product-brand {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #000;
+    margin: 5px 0;
+}
+
+.product-rating {
+    font-size: 14px;
+    color: #f90;
+}
+
+.shop-all-btn {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    text-align: end;
+}
